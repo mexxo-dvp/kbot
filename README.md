@@ -88,8 +88,9 @@
 | `TELE_TOKEN`  | Токен Telegram-бота            | 123456789:ABC...       |
 
 ---
-```txt
+
 ## Структура проекту
+```txt
 ├── Dockerfile
 ├── LICENSE
 ├── Makefile
