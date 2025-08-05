@@ -88,7 +88,7 @@
 | `TELE_TOKEN`  | Токен Telegram-бота            | 123456789:ABC...       |
 
 ---
-
+```txt
 ## Структура проекту
 ├── Dockerfile
 ├── LICENSE
@@ -108,12 +108,8 @@
 - **Makefile** — автоматизація збірки
 - **Dockerfile** — контейнеризація для production
 - **go.mod** — залежності
-
-## Розробник
-
-- mexxo (GitHub: [mexxo-dvp](https://github.com/mexxo-dvp))
-
-
+```
+## Changelog
 v1.0.1
 
     Початкова реалізація:
@@ -139,6 +135,10 @@ v1.0.2
 
     Версію бота тепер видно у логах і команді kbot version.
 ---
+
+## Розробник
+
+- mexxo (GitHub: [mexxo-dvp](https://github.com/mexxo-dvp))
 
 > **⚡️ Практично:**  
 > Запуск і конфігурація максимально спрощені. Для деплойменту в production — використовуйте змінні оточення, secrets і best practices Go.
